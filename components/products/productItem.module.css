@@ -19,5 +19,54 @@
 .imageWrapper {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 300px;
+}
+
+.productItem img {
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.productDetails {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.productDetails h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+}
+
+.productDetails .price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #0070f3;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.productDetails .description {
+  font-size: 1rem;
+  color: #666;
+  margin: 2px 0;
+  text-align: center;
+}
+
+.productDetails button {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.productDetails button:hover {
+  background-color: #005bb5;
 }

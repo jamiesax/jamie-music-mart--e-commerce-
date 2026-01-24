@@ -1,19 +1,24 @@
-import product from '@/data/products.json';
+import products from '@/data/products.json';
 import Image from 'next/image';
 import classes from './productItem.module.css';
+import Button from '../button.jsx';
 
-const ProductItem = () => {
+const ProductItem = ({ addToCart }) => {
     return (
         <>
-            {product.map((item) => (
-            <li key={item.id} className={classes.productItem}>
+            {products.map((product) => (
+            <li key={product.id} className={classes.productItem}>
                 <div className={classes.imageWrapper}>
-                    <Image src={item.image} alt={item.name} fill />
+                    <Image src={product.image} alt={product.name} fill />
                 </div>
                 <div className={classes.productDetails}>
-                    <h2>{item.name}</h2>
-                    <p>{item.description}</p>
-                    <p className={classes.price}>${item.price}</p>
+                    <h2>{product.name}</h2>
+                    <p className={classes.description}>{product.description}</p>
+                    <p className={classes.price}>${product.price}</p>
+                    <Button onClick={() => {
+                        addToCart(product);
+                        console.log('Added to cart:', product);
+                    }}>Add to Cart</Button>
                 </div>
             </li>
             ))}

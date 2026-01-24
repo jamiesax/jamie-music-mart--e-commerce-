@@ -1,12 +1,14 @@
-import ProductGrid from '@/components/products/productGrid';
+import Product from '@/app/(product)/product/page.jsx';
 
 const HomePage = () => {
   return (
     <>
-     <main>
+     <header>
       <h1>Welcome to Jamie&apos;s Music Mart</h1>
       <p>Your one-stop shop for all things music!</p>
-      <ProductGrid />
+     </header>
+     <main>
+       <Product />
      </main>
     </>
   );

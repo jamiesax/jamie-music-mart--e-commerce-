@@ -3,7 +3,7 @@
         "id": "Desert-Tenor-Sax-1",
         "name": "Desert Tenor Sax",
         "price": 400,
-        "image": "/images/prod1.png",
+        "image": "/image/prod1.png",
         "description": "A smooth and versatile saxophone perfect for jazz and classical music enthusiasts.",
         "category": "Wind Instruments"
     },
@@ -11,7 +11,7 @@
         "id": "Yukaleli-2",
         "name": "Yukaleli",
         "price": 87,
-        "image": "/images/prod2.png",
+        "image": "/image/prod2.png",
         "description": "A compact and portable ukulele ideal for beginners and seasoned players alike.",
         "category": "String Instruments"
     },
@@ -19,7 +19,7 @@
         "id": "Guitar-3",
         "name": "Guitar",
         "price": 190,
-        "image": "/images/prod3.png",
+        "image": "/image/prod3.png",
         "description": "A classic acoustic guitar with rich tones and excellent playability for all skill levels.",
         "category": "String Instruments"
     },
@@ -27,7 +27,7 @@
         "id": "Saxo-4",
         "name": "Saxo",
         "price": 458,
-        "image": "/images/prod4.png",
+        "image": "/image/prod4.png",
         "description": "A high-quality saxophone designed for professional musicians seeking superior sound.",
         "category": "Wind Instruments"
     },
@@ -35,7 +35,7 @@
         "id": "Trumpet-5",
         "name": "Trumpet",
         "price": 400,
-        "image": "/images/prod5.png",
+        "image": "/image/prod5.png",
         "description": "A bright and powerful trumpet suitable for orchestras and solo performances.",
         "category": "Brass Instruments"
     },
@@ -43,7 +43,7 @@
         "id": "Desert-Tenor-Sax-6",
         "name": "Desert Tenor Sax",
         "price": 400,
-        "image": "/images/prod1.png",
+        "image": "/image/prod1.png",
         "description": "A smooth and versatile saxophone perfect for jazz and classical music enthusiasts.",
         "category": "Wind Instruments"
     },
@@ -51,7 +51,7 @@
         "id": "Fluffy-7",
         "name": "Fluffy",
         "price": 400,
-        "image": "/images/prod7.png",
+        "image": "/image/prod7.png",
         "description": "A soft and cuddly plush toy that brings comfort and joy to children of all ages.",
         "category": "Toys"
     },
@@ -59,7 +59,7 @@
         "id": "Camera-8",
         "name": "Camera",
         "price": 400,
-        "image": "/images/prod8.png",
+        "image": "/image/prod8.png",
         "description": "A high-resolution digital camera perfect for capturing stunning photos and videos.",
         "category": "Electronics"
     },
@@ -67,7 +67,7 @@
         "id": "Yukaleli-9",
         "name": "Yukaleli",
         "price": 400,
-        "image": "/images/prod2.png",
+        "image": "/image/prod2.png",
         "description": "A compact and portable ukulele ideal for beginners and seasoned players alike.",
         "category": "String Instruments"
     },
@@ -75,7 +75,7 @@
         "id": "Trumpet-10",
         "name": "Trumpet",
         "price": 400,
-        "image": "/images/prod5.png",
+        "image": "/image/prod5.png",
         "description": "A bright and powerful trumpet suitable for orchestras and solo performances.",
         "category": "Brass Instruments"
     },
@@ -83,7 +83,7 @@
         "id": "Camera-11",
         "name": "Camera",
         "price": 400,
-        "image": "/images/prod8.png",
+        "image": "/image/prod8.png",
         "description": "A high-resolution digital camera perfect for capturing stunning photos and videos.",
         "category": "Electronics"
     },
@@ -91,7 +91,7 @@
         "id": "Desert-Tenor-Sax-12",
         "name": "Desert Tenor Sax",
         "price": 400,
-        "image": "/images/prod1.png",
+        "image": "/image/prod1.png",
         "description": "A smooth and versatile saxophone perfect for jazz and classical music enthusiasts.",
         "category": "Wind Instruments"
     },
@@ -99,7 +99,7 @@
         "id": "Yukaleli-13",
         "name": "Yukaleli",
         "price": 400,
-        "image": "/images/prod2.png",
+        "image": "/image/prod2.png",
         "description": "A compact and portable ukulele ideal for beginners and seasoned players alike.",
         "category": "String Instruments"
     },
@@ -107,7 +107,7 @@
         "id": "Guitar-14",
         "name": "Guitar",
         "price": 400,
-        "image": "/images/prod3.png",
+        "image": "/image/prod3.png",
         "description": "A classic acoustic guitar with rich tones and excellent playability for all skill levels.",
         "category": "String Instruments"
     },
@@ -115,7 +115,7 @@
         "id": "Tenor Sax-15",
         "name": "Tenor Sax",
         "price": 400,
-        "image": "/images/prod4.png",
+        "image": "/image/prod4.png",
         "description": "A high-quality saxophone designed for professional musicians seeking superior sound.",
         "category": "Wind Instruments"
     },
@@ -123,7 +123,7 @@
         "id": "Trumpet-16",
         "name": "Trumpet",
         "price": 400,
-        "image": "/images/prod5.png",
+        "image": "/image/prod5.png",
         "description": "A bright and powerful trumpet suitable for orchestras and solo performances.",
         "category": "Brass Instruments"
     },
@@ -131,7 +131,7 @@
         "id": "Guitar-17",
         "name": "Guitar",
         "price": 430,
-        "image": "/images/prod6.png",
+        "image": "/image/prod6.png",
         "description": "An electric guitar with exceptional sound quality and sleek design for rock enthusiasts.",
         "category": "String Instruments"
     }
