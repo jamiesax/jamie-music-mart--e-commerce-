@@ -1,0 +1,44 @@
+START
+  |
+  v
+Load App
+  |
+  v
+Fetch Products (local data / API)
+  |
+  v
+Display Product List (Home / Shop Page)
+  |
+  v
+User Action?
+  |
+  ├──> Click Product
+  |       |
+  |       v
+  |   Product Details Page
+  |       |
+  |       v
+  |   Select Quantity
+  |       |
+  |       v
+  |   Add to Cart
+  |       |
+  |       v
+  |   Update Cart State
+  |       |
+  |       v
+  |   Save Cart (LocalStorage)
+  |       |
+  |       v
+  |   Continue Shopping OR Go to Cart
+  |
+  └──> Add to Cart (from listing)
+          |
+          v
+      Update Cart State
+          |
+          v
+      Save Cart (LocalStorage)
+          |
+          v
+      Continue Shopping OR Go to Cart

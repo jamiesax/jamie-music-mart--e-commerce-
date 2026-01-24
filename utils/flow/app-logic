@@ -1,0 +1,13 @@
+App Loads
+  |
+  v
+Read Cart from LocalStorage
+  |
+  v
+Initialize Cart State
+  |
+  v
+Listen for Cart Changes
+  |
+  v
+Sync Cart → LocalStorage

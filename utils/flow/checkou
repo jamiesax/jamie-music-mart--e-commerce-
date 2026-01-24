@@ -1,0 +1,32 @@
+Checkout Page
+|
+v
+Fill Shipping Details
+|
+v
+Validate Form
+|
+v
+Form Valid?
+|
+├── NO → Show Error Messages
+|
+└── YES
+|
+v
+Show Order Summary
+|
+v
+Place Order
+|
+v
+Clear Cart
+|
+v
+Save Order (optional)
+|
+v
+Order Success Page
+|
+v
+END

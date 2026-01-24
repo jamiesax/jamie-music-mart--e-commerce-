@@ -1,0 +1,29 @@
+Go to Cart Page
+  |
+  v
+Display Cart Items
+  |
+  v
+Cart is Empty?
+  |
+  ├── YES → Show "Cart is empty" → Go back to Shop
+  |
+  └── NO
+        |
+        v
+   User Action?
+        |
+        ├── Update Quantity
+        |      |
+        |      v
+        |  Update Cart State
+        |      |
+        |      v
+        |  Recalculate Total
+        |
+        ├── Remove Item
+        |      |
+        |      v
+        |  Update Cart State
+        |
+        └── Proceed to Checkout

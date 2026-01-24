@@ -1,0 +1,134 @@
+E-Commerce Lite — TASK BREAKDOWN (Next.js + React)
+Think of each task = one small win.
+Don’t jump ahead.
+🟢 PHASE 0 — Project Setup (once)
+Task 0.1 — Create Next.js app
+Create the app
+Run it
+Remove default clutter
+✅ App runs without errors
+Task 0.2 — Create folders
+Inside src (or root if no src):
+Copy code
+
+app/
+components/
+context/
+data/
+utils/
+✅ Clean structure exists
+🟢 PHASE 1 — Product Data
+Task 1.1 — Create products.json
+File lives in data/
+Contains product array (done ✅)
+🛑 Stop editing JSON after this
+Task 1.2 — Import products in a page
+Import JSON into a page
+console.log(products)
+✅ Data loads correctly
+🟢 PHASE 2 — Shop Page (Product Listing)
+Task 2.1 — Create Shop page
+Route: /
+Add heading: “Shop”
+✅ Page renders
+Task 2.2 — Render product list
+Loop through products
+Show:
+Image
+Name
+Price
+❌ No cart logic yet
+Task 2.3 — Create ProductCard component
+Move product UI into component
+Pass product as prop
+✅ Reusable component
+Task 2.4 — Add “View Product” link
+Link to /product/[id]
+✅ Navigation works
+🟢 PHASE 3 — Product Details Page
+Task 3.1 — Create dynamic route
+Route: /product/[id]
+Read id from params
+✅ Dynamic routing works
+Task 3.2 — Find product by ID
+Use id to find product in JSON
+Handle “product not found”
+✅ Correct product loads
+Task 3.3 — Display product details
+Show:
+Image
+Name
+Description
+Price
+Task 3.4 — Quantity selector
+/ − buttons
+Quantity in state
+❌ No cart logic yet
+🟢 PHASE 4 — Cart State (Core Logic)
+Task 4.1 — Create Cart Context
+CartContext.jsx
+Wrap app with provider
+✅ Global cart state exists
+Task 4.2 — Define cart structure
+Each cart item has:
+Copy code
+Js
+{ id, name, price, image, quantity }
+Task 4.3 — Add to cart function
+If item exists → increase quantity
+Else → add item
+Task 4.4 — Connect Add to Cart buttons
+From product page
+From shop page
+✅ Cart updates correctly
+🟢 PHASE 5 — Cart Page
+Task 5.1 — Create Cart page
+Route: /cart
+Task 5.2 — Display cart items
+Show:
+Image
+Name
+Quantity
+Subtotal
+Task 5.3 — Update quantity
+Increase / decrease
+Recalculate total
+Task 5.4 — Remove item
+Remove button
+Update cart state
+🟢 PHASE 6 — Persist Cart (LocalStorage)
+Task 6.1 — Load cart on app start
+Read from LocalStorage
+Task 6.2 — Save cart on change
+Sync cart to LocalStorage
+✅ Cart survives refresh
+🟢 PHASE 7 — Checkout (UI Only)
+Task 7.1 — Create Checkout page
+Route: /checkout
+Task 7.2 — Shipping form
+Fields:
+Name
+Address
+Phone
+Task 7.3 — Validate form
+Required fields
+Error messages
+Task 7.4 — Order summary
+Items
+Total price
+🟢 PHASE 8 — Place Order Flow
+Task 8.1 — Place Order button
+Simulate order
+Task 8.2 — Clear cart
+Reset state
+Clear LocalStorage
+Task 8.3 — Success page
+“Order placed successfully”
+🟢 PHASE 9 — Polish (important)
+Task 9.1 — Mobile responsiveness
+Task 9.2 — Empty & loading states
+Task 9.3 — README
+Project description
+Features
+Tech stack
+What you learned
