@@ -1,21 +1,22 @@
 'use client';
 import ProductGrid from '@/components/products/productGrid.jsx';
-import { useState } from 'react';
+import { useCart } from '@/context/CartContext';
+import Link from 'next/link';
+import classes from './product.module.css';
 
 
-const productDetails = () => {
-  const [cart, setCart] = useState([]);
-
-  const addToCart = (product) => {
-  setCart((prevCart) => [...prevCart, product]);
-};
-
+const Products = () => {
+  const { cart } = useCart();
   return (
     <>
-      <p>Items in Cart: {cart.length}</p>
-      <ProductGrid addToCart={addToCart} />
+    <div className={classes.product}>
+      <h1>Products</h1>
+      <Link href="/product/cart">Go to Cart<span>{cart.length}</span></Link>
+    </div>
+      <ProductGrid />
     </>
+    
   );
 };
 
-export default productDetails;
+export default Products;

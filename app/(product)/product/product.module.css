@@ -1,0 +1,44 @@
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.product h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.product a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: bold;
+  position: relative;
+  font-size: 1.25rem;
+  border: 1px solid #e1f0ff;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.product a:hover {
+  background-color: #e1f0ff;
+}
+
+.product a span {
+  background-color: #e1f0ff;
+  border-radius: 12px;
+  padding: 2px 8px;
+  font-size: 0.875rem;
+  color: #e8701a;
+  margin-left: 5px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.product a span:hover {
+  background-color: #cce4ff;
+}
