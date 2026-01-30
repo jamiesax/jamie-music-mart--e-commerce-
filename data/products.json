@@ -40,14 +40,6 @@
         "category": "Brass Instruments"
     },
     {
-        "id": "Desert-Tenor-Sax-6",
-        "name": "Desert Tenor Sax",
-        "price": 400,
-        "image": "/image/prod1.png",
-        "description": "A smooth and versatile saxophone perfect for jazz and classical music enthusiasts.",
-        "category": "Wind Instruments"
-    },
-    {
         "id": "Fluffy-7",
         "name": "Fluffy",
         "price": 400,
@@ -62,70 +54,6 @@
         "image": "/image/prod8.png",
         "description": "A high-resolution digital camera perfect for capturing stunning photos and videos.",
         "category": "Electronics"
-    },
-    {
-        "id": "Yukaleli-9",
-        "name": "Yukaleli",
-        "price": 400,
-        "image": "/image/prod2.png",
-        "description": "A compact and portable ukulele ideal for beginners and seasoned players alike.",
-        "category": "String Instruments"
-    },
-    {
-        "id": "Trumpet-10",
-        "name": "Trumpet",
-        "price": 400,
-        "image": "/image/prod5.png",
-        "description": "A bright and powerful trumpet suitable for orchestras and solo performances.",
-        "category": "Brass Instruments"
-    },
-    {
-        "id": "Camera-11",
-        "name": "Camera",
-        "price": 400,
-        "image": "/image/prod8.png",
-        "description": "A high-resolution digital camera perfect for capturing stunning photos and videos.",
-        "category": "Electronics"
-    },
-    {
-        "id": "Desert-Tenor-Sax-12",
-        "name": "Desert Tenor Sax",
-        "price": 400,
-        "image": "/image/prod1.png",
-        "description": "A smooth and versatile saxophone perfect for jazz and classical music enthusiasts.",
-        "category": "Wind Instruments"
-    },
-    {
-        "id": "Yukaleli-13",
-        "name": "Yukaleli",
-        "price": 400,
-        "image": "/image/prod2.png",
-        "description": "A compact and portable ukulele ideal for beginners and seasoned players alike.",
-        "category": "String Instruments"
-    },
-    {
-        "id": "Guitar-14",
-        "name": "Guitar",
-        "price": 400,
-        "image": "/image/prod3.png",
-        "description": "A classic acoustic guitar with rich tones and excellent playability for all skill levels.",
-        "category": "String Instruments"
-    },
-    {
-        "id": "Tenor Sax-15",
-        "name": "Tenor Sax",
-        "price": 400,
-        "image": "/image/prod4.png",
-        "description": "A high-quality saxophone designed for professional musicians seeking superior sound.",
-        "category": "Wind Instruments"
-    },
-    {
-        "id": "Trumpet-16",
-        "name": "Trumpet",
-        "price": 400,
-        "image": "/image/prod5.png",
-        "description": "A bright and powerful trumpet suitable for orchestras and solo performances.",
-        "category": "Brass Instruments"
     },
     {
         "id": "Guitar-17",

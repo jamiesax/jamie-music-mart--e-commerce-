@@ -1,13 +1,11 @@
+import CheckoutWrapper from "./checkoutWrapper";
 
-
-const CheckOut = () => {
+const Checkout = () => {
   return (
     <>
-     <main>
-       CheckOut
-     </main>
+    <CheckoutWrapper />
     </>
   );
 };
 
-export default CheckOut;
+export default Checkout;

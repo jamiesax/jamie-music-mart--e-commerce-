@@ -6,31 +6,34 @@ const CartContext = createContext({
   addToCart: () => {},
   removeFromCart: () => {},
   quantityIncrement: () => {},
-  quantityDecrement: () => {},
+  quantityDecrement: () => {}
 });
 
 export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
 
-  const addToCart = (product) => {  
-    const uniqueId = Date.now();
-    const cartItem = {
+  const generateId = () =>
+  crypto.randomUUID?.() ??
+  `${Date.now()}-${Math.random()}`;
+
+const addToCart = (product) => {
+  const cartItem = {
     ...product,
-    cartId: Math.random().toString() + uniqueId,
+    cartId: generateId(),
     quantity: 1,
-    }
-  setCart((prevCart) => [...prevCart, cartItem]);
-  }
+  };
+
+  setCart(prevCart => [...prevCart, cartItem]);
+};
+
 
   const removeFromCart = (product) => {
-        setCart((prevCart) => prevCart.filter(item => item.id !== product.id));
-
-        
+        return setCart((prevCart) => prevCart.filter(item => item.cartId !== product.cartId));
     };
 
     const quantityIncrement = (product) => {
         setCart((prevCart) => prevCart.map(item => {
-            if (item.id === product.id) {
+            if (item.cartId === product.cartId) {
                 return {...item, quantity: item.quantity + 1};
             }
             return item;
@@ -39,13 +42,13 @@ export const CartProvider = ({ children }) => {
 
     const quantityDecrement = (product) => {
         setCart((prevCart) => prevCart.map(item => {
-            if (item.id === product.id && item.quantity > 1) {
+            if (item.cartId === product.cartId && item.quantity > 1) {
                 return {...item, quantity: item.quantity - 1};
             }
 
-            if (item.quantity <= 1) {
-           removeFromCart(product);
-        }
+        //     if (item.quantity <= 1) {
+        //    removeFromCart(product);
+        // }
             return item;
         }));
     };
