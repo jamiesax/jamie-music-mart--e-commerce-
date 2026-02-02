@@ -1,0 +1,96 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  /* margin: auto;
+  margin-bottom: 0; */
+  width: 100%;
+  min-height: 70vh;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+    height: auto;
+    color: #4A86C5;
+    /* margin: auto; */
+}
+
+.texts h1 {
+    font-size: 95px;
+    margin: 0;
+    text-align: center;
+}
+
+.texts p {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color:#E74C3C
+}
+
+.three {
+    color: #4A86C5
+}
+.two {
+    color: #dc4837;
+}
+.one {
+    color:#F1C40F;
+}
+.green {
+    color: #2ECC71;
+}
+
+.imageWrapper {
+    width: 50%;
+}
+
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* display: inline-block; */
+}
+
+
+/* Mobile */
+@media (max-width: 480px) {
+.texts h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.texts p {
+    margin: 0;
+    font-size: 12px;
+    /* font-weight: 600; */
+    text-align: center;
+}
+.imageWrapper img {
+    margin-top: 10px;
+  /* display: inline-block; */
+}
+}
+
+/* Tablet */
+@media (max-width: 1048px) {
+    
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        min-height: 40vh;
+        width: 100%;
+        margin: auto;
+        margin-top: 65px;
+        /* padding: 20px; */
+        text-align: center;
+    }
+}
+

@@ -23,7 +23,7 @@
 
 .container:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  transform: translate(5px, -5px);
+  /* transform: translate(5px, -5px); */
 }
 
 .container,
@@ -74,7 +74,7 @@
 .input:focus,
 .select:focus {
   outline: none;
-  border-color: #0070f3;
+  border-color: #4A86C5;
 }
 
 .button {
@@ -82,7 +82,7 @@
   padding: 0.75rem;
   border-radius: 4px;
   border: none;
-  background-color: #0070f3;
+  background-color: #4A86C5;
   color: #fff;
   font-size: 1rem;
   cursor: pointer;

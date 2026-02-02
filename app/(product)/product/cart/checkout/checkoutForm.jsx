@@ -2,8 +2,11 @@
 import Link from 'next/link';
 import classes from './page.module.css';
 import { useState } from 'react';
+import { useCart } from '@/context/CartContext.jsx'
 
 const CheckOutForm = ({ onSuccess }) => {
+  const { clearCart } = useCart()
+
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -64,6 +67,9 @@ const CheckOutForm = ({ onSuccess }) => {
 
     // console.log('Checkout data:', formData);
     onSuccess();
+    setFormData([])
+
+    clearCart();
   };
 
 

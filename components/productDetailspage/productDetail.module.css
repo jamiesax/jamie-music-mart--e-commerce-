@@ -1,22 +1,37 @@
-/* app/product/[id]/ProductDetail.module.css */
-
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 24px;
+  margin: -80px auto;
+  /* padding: 24px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+.detailsCard {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  align-items: center;
+  padding: 16px;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 70%;
+  width: 45%;
 }
 
-@media (min-width: 768px) {
-  .container {
-    flex-direction: row;
-  }
-}
 
 .imageWrapper {
+  position: relative;
+  height: auto;
+  object-fit: cover;
   flex: 1;
+  width: 70%;
 }
 
 .image {
@@ -24,47 +39,52 @@
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+
 }
 
-.details {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
-.name {
+.detailsCard .name {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 16px;
+  /* margin-; */
+  color: #333;
 }
 
-.price {
+.detailsCard .price {
+  color: #4A86C5;
+  margin-top: 0;
+  margin-bottom: 12px;
   font-size: 1.5rem;
   font-weight: 600;
-  color: #16a34a; /* green */
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
-.description {
+.detailsCard .description {
   font-size: 1rem;
-  color: #4b5563; /* gray-700 */
-  margin-bottom: 24px;
+  /* margin-bottom: 60px 0; */
+  text-align: center;
+  font-size: 1rem;
+  color: #4b5563;
 }
 
-.button {
-  background-color: #2563eb; /* blue-600 */
-  color: white;
-  font-weight: 700;
-  padding: 12px 24px;
-  border-radius: 12px;
+.detailsCard button {
+  background-color: #4A86C5;
+  color: #fff;
   border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
   cursor: pointer;
-  transition: all 0.2s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
 }
 
-.button:hover {
-  background-color: #1d4ed8; /* blue-700 */
-  transform: translateY(-2px);
+.detailsCard button:hover {
+  background-color: #005bb5;
+  color: #F1C40F;
 }
+
+
+
+
