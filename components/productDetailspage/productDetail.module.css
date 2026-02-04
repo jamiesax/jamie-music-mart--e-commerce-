@@ -86,5 +86,18 @@
 }
 
 
+@media (max-width: 1020px) {
+  .detailsCard{
+    height: 60%;
+  width: 50%;
+  }
+}
+
+@media (max-width: 811px) {
+  .detailsCard{
+    height: 50%;
+  width: 45%;
+  }
+}
 
 

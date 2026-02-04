@@ -2,11 +2,11 @@
   position: sticky;
   top: 0;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  z-index: 9999;
   margin: 0;
   padding: 0;
-    min-height: 60px;
   width: 100%;
+  z-index: 50;
+  background: white;
 }
 
 
@@ -18,6 +18,7 @@
     line-height: 0;
     background-color: #598ddb;
     align-items: center;
+    height: 60px;
     /* border: 1px solid #2C5AA0; */
 }
 
@@ -84,7 +85,7 @@
 }
 
 
-@media (max-width: 810px) {
+@media (max-width: 811px) {
   .nav .text {
     position: absolute;
     top: 60px;
@@ -106,11 +107,12 @@
 
   .hamburger {
     display: flex;
+    padding-left: 10px ;
   }
 
-  .cart {
-    margin-right: 10px;
-  }
+  .nav .cart {
+  margin-right: 20px;
+}
 
   .nav img {
     display: none;
