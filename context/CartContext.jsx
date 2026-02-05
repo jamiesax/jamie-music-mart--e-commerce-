@@ -32,15 +32,31 @@ export const CartProvider = ({ children }) => {
   const generateId = () =>
     crypto.randomUUID?.() ?? `${Date.now()}-${Math.random()}`;
 
-  const addToCart = (product) => {
-    const cartItem = {
-      ...product,
-      cartId: generateId(),
-      quantity: 1,
-    };
+const addToCart = (product) => {
+  setCart(prevCart => {
+    const existingItem = prevCart.find(
+      item => item.id === product.id
+    );
 
-    setCart(prevCart => [...prevCart, cartItem]);
-  };
+    if (existingItem) {
+      return prevCart.map(item =>
+        item.id === product.id
+          ? { ...item, quantity: item.quantity + 1 }
+          : item
+      );
+    }
+
+    return [
+      ...prevCart,
+      {
+        ...product,
+        cartId: generateId(),
+        quantity: 1,
+      },
+    ];
+  });
+};
+
 
   const removeFromCart = (product) => {
     setCart(prevCart =>
