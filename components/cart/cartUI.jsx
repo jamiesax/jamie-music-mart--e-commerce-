@@ -28,12 +28,12 @@ const CartUI = () => {
         <ul className={classes.cartList}>
             {cart.map((item) => (
                 <li key={item.cartId} className={classes.cartItem}>
-                    {/* <Link href={`/product/${item.id}`}> */}
+                    <Link href={`/product/${item.id}`}>
                         <div className={classes.imageWrapper}>
                         <Image id={item.id} src={item.image} alt={item.name} width={200} height={200} />
                         </div>
                         
-                    {/* </Link> */}
+                    </Link>
                         <h2 className={classes.itemName}>{item.name}</h2>
                         <p className={classes.itemPrice}>Price: ${item.price}</p>
                     
