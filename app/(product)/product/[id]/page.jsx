@@ -5,7 +5,7 @@ const ProductDetail = async({ params }) => {
   const { id } = await params;
   const item = products.find(p => p.id === id);
 
-  console.log(item)
+  // console.log(item)
 
   if (!item) {
     return <h2>Product not found</h2>;
